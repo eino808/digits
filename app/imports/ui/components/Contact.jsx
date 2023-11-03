@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Card, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 // eslint-disable-next-line react/prop-types
@@ -19,6 +20,8 @@ const Contact = ({ contact }) => (
       {/* eslint-disable-next-line react/prop-types */}
       <Card.Text>{contact.description}</Card.Text>
     </Card.Body>
+    {/* eslint-disable-next-line react/prop-types */}
+    <Link to={`/edit/${contact._id}`}>Edit</Link>
   </Card>
 );
 
