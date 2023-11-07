@@ -1,3 +1,5 @@
+<img src="doc/landing.png">
+
 ## Installation
 
 First, [install Meteor](https://www.meteor.com/install).
