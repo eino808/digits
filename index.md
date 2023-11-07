@@ -90,7 +90,7 @@ Once you log in (either to an existing account or by creating a new one), the na
 
 <img src="doc/userhome.png">
 
-You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
+You can now add new Contact documents, and list the Contact you have created. Note you cannot see any Contact created by other users.
 
 #### Add Contact page
 
@@ -104,7 +104,7 @@ After logging in, here is the page that allows you to list all the Contacts you 
 
 <img src="doc/listcontacts.png">
 
-You click the "Edit" link to go to the Edit Stuff page, shown next.
+You click the "Edit" link to go to the Edit Contact page, shown next.
 
 #### Edit Contact page
 
@@ -120,7 +120,7 @@ You can define an "admin" user in the settings.json file. This user, after loggi
 
 #### Admin page (list all users stuff)
 
-To provide a simple example of a "super power" for Admin users, the Admin page lists all of the Stuff by all of the users:
+To provide a simple example of a "super power" for Admin users, the Admin page lists all of the Contacts by all of the users:
 
 <img src="doc/admin.png">
 
